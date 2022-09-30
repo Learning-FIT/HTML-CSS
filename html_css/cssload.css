@@ -1,0 +1,12 @@
+#mainDiv{
+    background-color: darkblue !important;
+}
+
+.mainDiv{
+    font-size: 1em;
+    background-color: white !important;
+}
+
+div{
+    background-color: blueviolet;
+}

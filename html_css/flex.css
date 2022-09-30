@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    /* height:200px; */
+    border: brown 1px solid;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: space-around; */
+    /* align-items: baseline; */
+}
+
+.container div{
+    border:1px solid #000;
+    flex:0 1 300px;
+    /* flex-basis: 200px; */
+    /* margin: 1em;; */
+    /* float:left;
+    width:19%; */
+}
+.target{
+    /* flex-basis: 200px; */
+}

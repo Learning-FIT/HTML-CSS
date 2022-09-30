@@ -1,0 +1,20 @@
+.myList > li:hover{
+    background-color: coral;    
+}
+
+.sample a{
+    color:chartreuse;
+}
+.sample > a{
+    font-size:0.5em;
+}
+
+div[type]{
+    color:red;
+}
+a[href*=".jpg"]{
+    font-size: 1.5em;
+}
+.main,.sub{
+    border:1px solid #000;
+}

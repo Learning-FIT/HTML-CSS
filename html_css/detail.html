@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>書籍詳細</h1>
+    <div class="mainContent">
+        <a href="./index.html">トップに戻る</a>
+        <table>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <td><span class="bold">書籍名：</span>走れメロス</td>
+                </tr>
+                <tr>
+                    <td><span class="bold">著者：</span>太宰治</td>
+                </tr>
+                <tr>
+                    <td><span class="bold">概要：</span>激怒して走ったら結構速かったので友人と殴り合いました。</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="border: 1px solid #000;">
+            <form action="./detail.html" method="post">
+                レビュー投稿<br>
+                <table>
+                    <tr>
+                        <td>名前</td>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>レビュー</td>
+                        <td><textarea cols="60" name="review" rows="6"></textarea></td>
+                    </tr>
+                </table>
+                <input class="button" type="submit" value="レビューを投稿">
+            </form>
+        </div>
+        <p>【レビュー一覧】</p>
+        <div class="comment">
+            <div class="">
+                <div class="">
+                    田中 太郎
+                </div>
+                <div class="">
+                    2021/09/16
+                </div>
+            </div>
+            <div class="">
+                <p>命の大切さ、仲間への思いやり、約束を守るということをこの本は教えてくれる。</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="">
+                <div class="">
+                    鈴木 太郎
+                </div>
+                <div class="">
+                    2021/09/11
+                </div>
+            </div>
+            <div class="">
+                <p>久々に読んでみたが面白く考えさせられることが多い。</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="">
+                <div class="">
+                    高橋 太郎
+                </div>
+                <div class="">
+                    2021/08/02
+                </div>
+            </div>
+            <div class="">
+                <p>読書感想文の宿題で読みました。</p>
+            </div>
+        </div>
+        <div class="comment">
+            <div class="">
+                <div class="">
+                    山田 太郎
+                </div>
+                <div class="">
+                    2020/12/26
+                </div>
+            </div>
+            <div class="">
+                <p>走れメロスを読んでから、上司としての心構えを強く持てるようになった気がします。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

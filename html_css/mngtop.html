@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>書籍管理</title>
+    </head>
+    <body>
+        <h1>書籍管理</h1>
+        <div class="mainContent">
+            <a href="./index.html">トップに戻る</a>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>書籍名</th>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <th>著者</th>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <th>概要</th>
+                        <td>
+                            <textarea rows="4" cols="60"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;"><button>新規登録</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="mainTable">
+                <thead>
+                    <tr>
+                        <th>書籍名</th>
+                        <th>著者</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>坊っちゃん</td>
+                        <td>夏目漱石</td>
+                        <td>
+                            <a href="mngdetail.html"><button>編集</button></a>
+                            <a href=""><button>削除</button></a>
+                            <a href="mngreview.html"><button>レビュー</button></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>吾輩は猫である</td>
+                        <td>夏目漱石</td>
+                        <td>
+                            <a href="mngdetail.html"><button>編集</button></a>
+                            <a href=""><button>削除</button></a>
+                            <a href="mngreview.html"><button>レビュー</button></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>走れメロス</td>
+                        <td>太宰治</td>
+                        <td>
+                            <a href="mngdetail.html"><button>編集</button></a>
+                            <a href=""><button>削除</button></a>
+                            <a href="mngreview.html"><button>レビュー</button></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
